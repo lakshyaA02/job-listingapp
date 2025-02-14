@@ -1,31 +1,65 @@
-# React & Tailwind CSS Starter Pack
+# Job Listing App
 
-This is a starter pack for creating React projects with Tailwind CSS configured. It uses React version **18.2** and Tailwind CSS version **3.2**.
+A simple Job Listing application built with React and Tailwind CSS. This app fetches job listings from a mock API and allows users to search, filter, and paginate job posts. It also includes a feature for job detail pages with dynamic routing.
 
-## Usage
+## Features
 
-This starter pack includes a basic setup for using **Tailwind CSS with React**. To start building your own components and styles, follow these steps:
+- **Job Listings**: Displays a list of jobs fetched from an external API.
+- **Search Functionality**: Allows users to search jobs by title.
+- **Company Filter**: Filters jobs based on selected company.
+- **Pagination**: Displays jobs with pagination, allowing users to navigate through different pages.
+- **Job Details Page**: Displays detailed information for a selected job.
+- **Dark Mode**: A toggle to switch between light and dark modes.
+- **Responsive Design**: Fully responsive for mobile and desktop screens.
 
-1. Clone the repository to your local machine.
-    ```sh
-    git clone https://github.com/thepranaygupta/react-tailwind-css-starter-pack.git
-    ```
+## Technologies Used
 
-1. Install the required packages.
-    ```sh
-    cd react-tailwind-css-starter-pack
-    npm install
-    ```
+- **React**: JavaScript library for building user interfaces.
+- **React Router**: For handling routing and navigation.
+- **Tailwind CSS**: Utility-first CSS framework for styling.
+- **JSONPlaceholder (Mock API)**: Mock API to simulate fetching job data.
 
-1. Start the development server.
-    ```sh
-    npm start
-    ```
-1. Open the project in your browser at [`http://localhost:3000`](http://localhost:3000) to view your project.
-1. Create your React components and add your styles using Tailwind classes. You can also create new CSS files and import them into your components.
+## Installation
 
-The project is set up to use `postcss-cli` to process your CSS files. You can add your own `tailwind.config.js` file to customize your Tailwind setup.
+1. Clone the repository:
 
-## Contributing
+   ```bash
+   git clone https://github.com/yourusername/job-listing-app.git
+   cd job-listing-app
+Install dependencies:
 
-Contributions are welcome! If you have any suggestions or find any issues, please feel free to open an issue or a pull request.
+bash
+Copy
+Edit
+npm install
+Run the application in development mode:
+
+bash
+Copy
+Edit
+npm start
+Open http://localhost:3000 in your browser.
+
+Project Structure
+src/:
+App.js: Main component that handles routing and state management.
+components/: Contains reusable components such as Navbar, JobCard, and JobDetails.
+assets/: Contains images used in the app (e.g., error images).
+index.css: Tailwind CSS styles.
+Running Tests
+If you want to run tests (if any), use the following command:
+
+bash
+Copy
+Edit
+npm test
+Contributing
+Feel free to fork the repository, make changes, and submit pull requests. If you find any issues or bugs, please open an issue.
+
+License
+This project is licensed under the MIT License - see the LICENSE file for details.
+
+Acknowledgments
+Tailwind CSS for styling.
+React Router for routing.
+JSONPlaceholder for providing mock data.
