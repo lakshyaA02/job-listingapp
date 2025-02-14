@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/job-listingapp/static/css/main.15dcbd53.css",
+    "main.js": "/job-listingapp/static/js/main.a5a436f8.js",
+    "static/media/no_data_found.png": "/job-listingapp/static/media/no_data_found.5123dc0ca23c97e1b09b.png",
+    "index.html": "/job-listingapp/index.html",
+    "main.15dcbd53.css.map": "/job-listingapp/static/css/main.15dcbd53.css.map",
+    "main.a5a436f8.js.map": "/job-listingapp/static/js/main.a5a436f8.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.15dcbd53.css",
+    "static/js/main.a5a436f8.js"
+  ]
+}
